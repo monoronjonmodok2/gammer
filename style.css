@@ -10,6 +10,9 @@
   }
   
 
+/* -navigation section style start */
+
+
 .logo , .manu , .manu-btn , .manu-icon{
     display: flex;
     justify-content: space-evenly;
@@ -58,4 +61,80 @@ nav{
     width: 33.916px;
     height: 24px;
     margin-left: 24px;
+}
+
+/* -navigation section style end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* small device */
+
+@media screen and (max-width:576px){
+    /* nav section resposive start */
+    nav{
+        flex-direction: column;
+        justify-content: space-evenly;
+         height: 100%;
+    }
+    .manu{
+        flex-direction: column;
+        margin: 0;
+        justify-content: space-evenly;
+    }
+    .manu-btn{
+        flex-direction: column;
+        margin-top: 32px;
+
+    }
+
+    .devoloper-btn{
+        margin: 32px 0px 0px 0px;
+    }
+    .manu-icon{
+        margin: 32px 0px 10px 0px;
+        
+    }
+
+    /* nav section resposive end */
+
+
+    
+}
+
+
+
+
+
+    /* miduam device */
+
+@media screen and (min-width:576px)and (max-width:992px) {
+
+     /* nav section resposive start */
+     nav{
+        padding: 0px;
+        flex-direction: column;
+        
+    }
+    .manu{
+        padding-bottom: 20px;
+    }
+     /* nav section resposive end */
 }
