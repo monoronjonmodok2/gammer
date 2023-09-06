@@ -85,6 +85,7 @@ nav{
     position: absolute;
     top: 40%;
     right: 75%;
+    
 }
 
 
@@ -133,6 +134,13 @@ nav{
 }
 
 
+.header-image{
+    width: 40%;
+}
+
+.header-image>img{
+    width: 100%;
+}
 
 
 
@@ -180,8 +188,26 @@ nav{
 
     /* nav section resposive end */
 
-
+    /* header body section responsive */
+   .header-body{
+    flex-direction:column;
     
+   }
+   .container-1{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+.header-image{
+    width: 100%;
+}
+
+.header-image>img{
+    width: 100%;
+}
+
+
 }
 
 
@@ -202,4 +228,17 @@ nav{
         padding-bottom: 20px;
     }
      /* nav section resposive end */
+
+     /* header body section responsive */
+
+     .container-1{
+        position: absolute;
+        top: 40%;
+        right: 40%;
+    }
+    
+    .header-image>img{
+        max-width: 400px;
+    }
+
 }
