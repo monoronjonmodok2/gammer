@@ -66,6 +66,71 @@ nav{
 /* -navigation section style end */
 
 
+.header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: auto;
+    background-image: ;
+}
+
+
+.header-background{
+    position: relative;
+}
+.container-1{
+    position: absolute;
+    top: 40%;
+    right: 75%;
+}
+
+
+.header-title{
+    font-size: 3rem;
+    font-weight: 600px;
+    color: var(--black);
+
+}
+
+.header-titile-goat{
+    font-size: 5.938rem;
+    font-weight: bold;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-titile-play , .header-titile-download , .header-titile-deteles{
+    font-size: 1.25rem;
+    font-weight: 500px;
+    color: var(--black);
+}
+
+.header-title-icon{
+    display: flex;
+    gap: 5px;
+}
+
+.btn{
+    display: flex;
+    gap: 24px;
+    margin-top: 10px;
+}
+.btn-sign , .btn-go{
+    padding: 21px 40px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border-radius: 48px;
+    color: white;
+    border: none;
+}
+
+.btn-go{
+    background: #4EC5F7;
+}
 
 
 
