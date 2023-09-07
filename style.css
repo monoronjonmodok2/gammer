@@ -145,6 +145,9 @@ nav{
 /* header  body section end */
 
 
+/* gammer section style start */
+
+
 .gammer-section{
   
    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
@@ -182,13 +185,84 @@ nav{
     font-size: 1.125rem;
     margin-bottom: 32px;
 }
-.purpose{
+.online-title.purpose{
     margin-bottom: 5px;
 }
 .gamer-content{
     font-size: 2rem;
     color: var(--black);
 }
+
+
+/* gammer section end */
+
+
+
+.online-title{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom:20px ;
+}
+
+
+.online-title-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-title-discription{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.more-videos{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+}
+.container>img , .container-img{
+    width: 100%;
+    flex-wrap: nowrap;
+
+}
+
+.container-video{
+    position: relative;
+}
+.svg-video{
+    position: absolute;
+    top: 40%;
+    right: 35%;
+}
+
+.container-title{
+    width: 100%;
+    height: 5vh;
+}
+.container>div>p{
+    font-size: 1.25rem;
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+.watch-now{
+    color: #F948B2;
+
+}
+
+
+
 
 
 
@@ -240,13 +314,14 @@ nav{
     
    }
    .container-1{
-    position: absolute;
-    top: 40%;
-    right: 10%;
+    position: static;
 }
 
+.svg-background{
+    display: none;
+}
 .header-image{
-    width: 100%;
+    
 }
 
 .header-image>img{
@@ -255,6 +330,18 @@ nav{
 
 /* header  body section end */
 
+.gammer-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.gammer-image>img{
+    /* height: 300px; */
+}
+
+.gamer-content{
+    text-align: center;
+}
 
 }
 
