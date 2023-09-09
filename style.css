@@ -327,7 +327,7 @@ text-align: left;
 }
 
 .play-game-image{
-    width: 50%;
+    width: 45%;
     position: relative;
 }
 .play-game-image>img{
@@ -335,7 +335,7 @@ text-align: left;
 }
 
 .play-game-images2{
-    width: 50%;
+    width: 45%;
 }
 
 .play-game-images2{
@@ -372,6 +372,74 @@ text-align: left;
 
 
 /* play-game-section style end */
+
+
+
+/* carrear section style start */
+
+.carrear-section{
+   
+    margin-top: 100px;
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+}
+.carrear-main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+    
+}
+
+.carrear-content>h3{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 24px;
+
+
+}
+.carrear-content>p{
+    color: #FFFFFF;
+
+}
+
+.carrear-skill{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+   margin-top: 32px;
+
+}
+.carrear-skill>ul>li{
+    list-style: none;
+
+
+    
+}
+.btn-carrear{
+    background-color: #fff;
+    color: #F948B2;
+    padding: 21px 40px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 40px;
+    font-size: 1.25rem;
+    font-weight: 600px;
+}
+
+
+.carrear-image{
+    width: 100%;
+
+}
+.carrear-image>img{
+    width: 100%;
+}
+
+ /* carrear section end */
 
 
 
