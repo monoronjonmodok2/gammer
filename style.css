@@ -442,6 +442,40 @@ text-align: left;
  /* carrear section end */
 
 
+ .logo-container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+ }
+
+
+ .logo-box{
+    display: flex;
+    align-items: center;
+    
+    border-radius: 30px;
+    background: #fff;
+    
+
+}
+
+
+.logo-container-1{
+    padding-top: 121px;
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+
+}
+
+.logo-container-2{
+    padding-bottom: 121px;
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    margin-top: 28px;
+}
+
+/* logo container section style :end */
+
 
 
 
