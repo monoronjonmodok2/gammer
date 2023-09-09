@@ -478,6 +478,67 @@ text-align: left;
 
 
 
+footer{
+    background-color: #0B0223;
+}
+
+.footer-logo-img{
+   max-width: 240px;
+   margin:auto;
+   padding-top: 120px;
+
+}
+
+.footer-logo-text{
+    color: #fff;
+}
+
+
+.footer-logo-img{
+    display: flex;
+    align-items: center;
+   
+}
+
+.footer-navigation{
+    display: flex;
+    gap: 40px;
+    max-width: 814px;
+    margin:auto;
+    padding-top: 56px;
+    
+
+}
+.footer-navigation-text{
+    color: #fff;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 20px;
+    max-width: 377px;
+    margin:auto;
+    padding-top: 66px;
+}
+
+.polcy{
+    display: flex;
+    color: rgba(255, 255, 255, 0.60);
+    gap: 60px;
+    max-width: 708px;
+    margin: auto;
+    padding-top: 66px;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+    max-width: 431px;
+    margin: auto;
+    padding-top: 18px;
+    padding-bottom: 120px;
+
+}
+
 
 
 
